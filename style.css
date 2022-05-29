@@ -264,6 +264,9 @@ h6{
     margin-bottom: 1vh;
     font-family: monospace;
 }
+.inn .card :hover{
+    transform: scale(1.21);
+}
 /* footer */
 .tooltips {
     position: relative;
