@@ -111,7 +111,8 @@ span.highlight-half{
    background-color: white;
    text-align: center;
    font-family: Arial, Helvetica, sans-serif;
-   /* border: solid rgb(236, 229, 229); */
+   border: solid rgb(233, 233, 233);
+   border-width: 1px;
 }
 /* .sticky{
     background-color: crimson;
@@ -170,6 +171,7 @@ span.highlight-half{
 h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+    font-size: 15px;
 }
 .collaboration{
     margin-top: 10vh;
@@ -263,6 +265,10 @@ h6{
     color: grey;
     margin-bottom: 1vh;
     font-family: monospace;
+}
+.inn .card :hover{
+    transition: ease-in;
+    transform: scale(1.01);
 }
 /* footer */
 .tooltips {
@@ -362,4 +368,39 @@ h6{
 }
 div.footer{
     padding: 16% 0%;
+}
+/* about page */
+.sponsors :hover{
+    transform: scale(1.009);
+}
+.qoutes{
+    background-color: rgb(9, 74, 9);
+}
+
+.qoutes p{
+    color: white;
+    padding: 8%;
+}
+.community{
+    font-size: 15px;
+}
+.componyqoutes img{
+    height: 80vh;
+    width: 100vw;
+}
+.componyqoutes .qoutes{
+    width: 70vw;
+    margin-top: -10%;
+    backface-visibility: hidden;
+    background-position-x: center;
+}
+.componyqoutes .qoutes :hover{
+    transform: scale(1.019);
+}
+.creativity button{
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(123, 0, 255);
+    color: white;
+    float: right;
 }
