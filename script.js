@@ -20,3 +20,15 @@ var loader=document.getElementById('loader');
 function myfunc(){
     loader.style.display='none';
 }
+function scrollbg(){
+ var navhead= document.getElementById('navhead');
+var scrollvalue=window.scrollY;
+if(scrollvalue>80){
+  navhead.classList.add("sticky");  
+}
+else{
+  navhead.classList.remove("sticky");
+}
+// console.log(scrollvalue);
+}
+window.addEventListener('scroll',scrollbg);

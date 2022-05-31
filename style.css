@@ -98,7 +98,7 @@ span.highlight-half{
 
 /* home page starts */
 .loader{
-    height: 100vh;
+    height: 200vh;
     width: 100%;
     text-align: center;
     
@@ -112,12 +112,22 @@ span.highlight-half{
    text-align: center;
    font-family: Arial, Helvetica, sans-serif;
    border: solid rgb(233, 233, 233);
-   border-width: 1px;
+   border-width: 2px;
 }
-/* .sticky{
+.bg ul a{
+    font-size: 17px;
+    margin-left:3vw;
+}
+.sticky{
+    margin-top: -10%;
+    width: 100%;
+    position: fixed;
+    height: 10vh;
+    color: black;
+    transition: .31s ease-in-out;
+    z-index:10;
     background-color: crimson;
-    display: none;
-} */
+}
 .bg img{
     height: 50px;
     width: 50px;
@@ -267,12 +277,8 @@ h6{
     font-family: monospace;
 }
 .inn .card :hover{
-<<<<<<< HEAD
     transition: ease-in;
     transform: scale(1.01);
-=======
-    transform: scale(1.21);
->>>>>>> ef09ac8ff4b84822c7e7008b1c6d66b5ab6d45ff
 }
 /* footer */
 .tooltips {
@@ -373,7 +379,6 @@ h6{
 div.footer{
     padding: 16% 0%;
 }
-<<<<<<< HEAD
 /* about page */
 .sponsors :hover{
     transform: scale(1.009);
@@ -409,5 +414,3 @@ div.footer{
     color: white;
     float: right;
 }
-=======
->>>>>>> ef09ac8ff4b84822c7e7008b1c6d66b5ab6d45ff
