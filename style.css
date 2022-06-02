@@ -104,9 +104,9 @@ span.highlight-half{
     text-align: center;
     z-index:999;
 }
-.loader img{
+/* .loader img{
     height: 30%;
-}
+} */
 .bg{
    background-color: white;
    text-align: center;
