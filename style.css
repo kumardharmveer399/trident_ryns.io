@@ -101,6 +101,7 @@ span.highlight-half{
     height: 200vh;
     width: 100%;
     text-align: center;
+    position:fixed;
     
     /* background-image: linear-gradient(180deg, transparent 1%, var(--innovaccer-link) 0); */
 }
