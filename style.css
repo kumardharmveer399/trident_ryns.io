@@ -100,7 +100,7 @@ span.highlight-half{
 .loader{
     position:fixed;
     height: 200vh;
-    width: 100%;
+    width: 200vw;
     text-align: center;
     z-index:999;
 }
