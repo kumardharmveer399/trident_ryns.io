@@ -98,12 +98,11 @@ span.highlight-half{
 
 /* home page starts */
 .loader{
+    position:fixed;
     height: 200vh;
     width: 100%;
     text-align: center;
-    position:fixed;
-    
-    /* background-image: linear-gradient(180deg, transparent 1%, var(--innovaccer-link) 0); */
+    z-index:999;
 }
 .loader img{
     height: 30%;
@@ -133,7 +132,6 @@ span.highlight-half{
     height: 50px;
     width: 50px;
 }
-/* main  page*/
 #grid{
     display: grid;
     grid-template-columns: 60% 40%;
@@ -385,7 +383,9 @@ div.footer{
     transform: scale(1.009);
 }
 .qoutes{
-    background-color: rgb(9, 74, 9);
+    border-radius: 19px;
+    background-image: linear-gradient(45deg,rgb(9, 74, 9),green,crimson);
+
 }
 
 .qoutes p{
