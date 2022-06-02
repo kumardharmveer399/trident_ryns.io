@@ -99,14 +99,14 @@ span.highlight-half{
 /* home page starts */
 .loader{
     position:fixed;
-    height: 200vh;
-    width: 200vw;
+    height: 120vh;
+    width: 120vw;
     text-align: center;
     z-index:999;
 }
-/* .loader img{
+.loader img{
     height: 30%;
-} */
+}
 .bg{
    background-color: white;
    text-align: center;
